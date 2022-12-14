@@ -1,0 +1,14 @@
+name: 'Install Python dependencies'
+description: 'Install Python dependencies from requirements text file.'
+inputs:
+  requirements:
+    description: 'requirements text file'
+    required: true
+    default: 'requirements.txt'
+  update-pip:
+    description: 'Whether pip also has to be updated'
+    required: true
+    default: false
+runs:
+  using: 'node16'
+  main: 'index.js'
