@@ -1,5 +1,5 @@
-name: 'Install Python dependencies'
-description: 'Install Python dependencies from requirements text file.'
+name: 'Install Python requirements'
+description: 'Install Python requirements from text file.'
 inputs:
   requirements:
     description: 'requirements text file'
