@@ -8,7 +8,7 @@ Usage
 =====
 
 ```yaml
-uses: aabadie/install-python-requirements@main
+uses: aabadie/action-install-python-requirements@v2.0.1
 with:
   requirements: requirements.txt
   update-pip: true
